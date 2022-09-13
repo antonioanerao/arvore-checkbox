@@ -1,0 +1,17 @@
+#lista-quesitos ul {
+    padding-left:20px;
+}
+#lista-quesitos li {
+    list-style:none;
+}
+#lista-quesitos ul.hide {
+    display:none;
+}
+#lista-quesitos span {
+    color:#999;
+    font-family:"Courier New", Courier, monospace;
+    cursor:default;
+}
+#lista-quesitos span.expanded, #lista-quesitos span.collapsed {
+    cursor:pointer;
+}
